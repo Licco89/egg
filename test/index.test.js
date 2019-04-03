@@ -16,6 +16,7 @@ describe('test/index.test.js', () => {
       'Subscription',
       'start',
       'startCluster',
+      'Boot',
     ]);
   });
 });

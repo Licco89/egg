@@ -65,6 +65,6 @@ exports.Subscription = require('./lib/core/base_context_class');
 exports.BaseContextClass = require('./lib/core/base_context_class');
 
 /**
- * @member {BaseHookClass}
+ * @member {Boot} Egg#Boot
  */
-exports.BaseHookClass = require('./lib/core/base_hook_class');
+exports.Boot = require('./lib/core/base_hook_class');
