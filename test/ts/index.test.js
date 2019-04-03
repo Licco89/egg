@@ -10,7 +10,7 @@ const fs = require('fs');
 const mkdirp = require('mz-modules/mkdirp');
 const rimraf = require('mz-modules/rimraf');
 
-describe.only('test/ts/index.test.js', () => {
+describe('test/ts/index.test.js', () => {
   before(function* () {
     yield runscript('tsc', { cwd: baseDir });
     const dest = path.join(baseDir, 'node_modules/egg');
